@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/firmware/opalum.tx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.3 \
     vendor/motorola/montana/proprietary/vendor/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat \
     vendor/motorola/montana/proprietary/vendor/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat \
+    vendor/motorola/montana/proprietary/vendor/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
+    vendor/motorola/montana/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
     vendor/motorola/montana/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/montana/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
@@ -35,12 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/motorola/montana/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libDepthBokehEffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDepthBokehEffect.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libDepthBokehEffect2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDepthBokehEffect2.so \
-    vendor/motorola/montana/proprietary/vendor/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_mot_led_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_led_calibration.so \
-    vendor/motorola/montana/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libactuator_dw9767_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767_truly.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libactuator_dw9767.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_common.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_cpp_hfr_120.so \
@@ -175,9 +173,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libmotocalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotocalibration.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmotimager_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotimager_utils.so \
     vendor/motorola/montana/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/motorola/montana/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/motorola/montana/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/montana/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
